@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+	background: black;
+}
+.instagram-post-layout{
+    padding-top: 10px;
+    background: white;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 500px;
+}
+.post-title {
+	display: flex;
+	align-items: center;
+}
+.titles {
+    margin-left: 3px;
+}
+h4 {
+    margin: 0px;
+	
+}
+.rigo-title{
+	margin: 0;
+}
+.post-header{
+    margin-left: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+.header-options{
+	padding-top: 10px;
+    margin-right: 5px;
+}
+img {
+    padding-top: 10px;
+}
+.reactions{
+    padding-top: 5px;
+	display: flex;
+	justify-content: space-between;
+	margin-block-start: .5rem;
+    margin-left: 5px;  
+}
+.bookmark{
+    padding-top: 5px;
+    margin-right: 5px;
+	display: flex;
+	justify-content: right;
+}
+.postcard-footer{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+span {
+    font-weight: bold;
+}
